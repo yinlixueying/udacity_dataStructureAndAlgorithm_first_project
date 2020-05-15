@@ -1,11 +1,21 @@
 import sys
 
 class huffman_Node(object):
-    def __init__(self, value, weight):
-        self.left = None;
-        self.right = None;
+    def __init__(self, value, freq, left=None, right=None):
+        self.left = left;
+        self.right = right;
         self.value = value;
-        self.weight = weight;
+        self.freq = freq;
+    def comparsion(self, node)
+        return self.value < node.value;
+def get_frequency(str):
+    freq = {};
+    for i in str:
+        if i in freq:
+            freq[i] += 1;
+        else:
+            freq[i] = 1;
+    sorted_freq = sorted(freq.items(), key=lambda item:item[1]);
 
 def huffman_encoding(data):
     pass
