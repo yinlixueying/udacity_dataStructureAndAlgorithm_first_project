@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 class Group(object):
     def __init__(self, _name):
         self.name = _name
@@ -20,15 +26,7 @@ class Group(object):
         return self.name
 
 
-parent = Group("parent")
-child = Group("child")
-sub_child = Group("subchild")
-
-sub_child_user = "sub_child_user"
-sub_child.add_user(sub_child_user)
-
-child.add_group(sub_child)
-parent.add_group(child)
+# In[2]:
 
 
 def is_user_in_group(user, group):
@@ -39,4 +37,17 @@ def is_user_in_group(user, group):
       user(str): user name/id
       group(class:Group): group to check user membership against
     """
-    return None
+    if user in group.get_users():
+        return True;
+    else:
+        groupList = group.get_groups()
+        for item in groupList:
+            return is_user_in_group(user, group)
+    return False
+
+
+# In[ ]:
+
+
+
+
