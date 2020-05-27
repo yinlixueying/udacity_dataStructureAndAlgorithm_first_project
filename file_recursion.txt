@@ -1,0 +1,6 @@
+File recursion
+
+File recursion uses recurion to traverse the path
+time and space complexity:
+Time: O(num of nodes in file hierachy tree)
+Space: O(num of file of desired extention)

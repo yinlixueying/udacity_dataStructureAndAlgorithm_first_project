@@ -1,0 +1,6 @@
+Blockchain
+
+Blockchain uses linkedList because it needs pointer points to previous block's hashkey, this is similar to linkedList structure. Previous_block variable in Block is used to record the previous record address.
+append() is O(1)
+size() is O(n)
+to_list() is O(n)

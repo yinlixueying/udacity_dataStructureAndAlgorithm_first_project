@@ -1,0 +1,5 @@
+LRU
+
+Uses OrderedDict package to ensure the insert sequence of the item in cache.
+Time: O(1)
+Space: O(size of cache)

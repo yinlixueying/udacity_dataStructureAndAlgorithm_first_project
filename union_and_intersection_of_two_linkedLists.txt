@@ -1,0 +1,7 @@
+Union and Intersection of two linkedList
+
+In Union, I choose to use a list as hashmap to store the appeared value in A list and B list
+In Intersection, I choose to use a set() because it has no duplicated value
+
+time and space complexity
+O(n)

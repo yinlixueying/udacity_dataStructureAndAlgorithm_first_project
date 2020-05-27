@@ -1,0 +1,5 @@
+Huffman coding
+
+uses tree structure
+Time complexity：O(nlogn)
+Space complexity: O(number of unique symbols in data)

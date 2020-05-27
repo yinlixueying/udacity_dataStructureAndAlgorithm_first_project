@@ -1,0 +1,3 @@
+Active directory uses recursion to find whether a item in a group
+time and space complexity:
+O(user * group_item)
