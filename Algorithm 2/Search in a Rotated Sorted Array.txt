@@ -1,0 +1,8 @@
+Search in a Rotated Sorted Array
+
+I use the binary sort  to solve the search problem.
+check whether the front part  or latter part is sequential
+find the area that target located
+
+time:O(logn)
+space:(1)
