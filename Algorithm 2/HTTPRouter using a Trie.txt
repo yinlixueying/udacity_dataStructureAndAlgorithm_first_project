@@ -1,0 +1,14 @@
+HTTPRouter using a Trie
+
+This is also a Trie structure, the only difference is Trie is storing character but HTTPRouter is storing string.
+Coding is similar to Trie code, but in this project splitter and error handler is provided. 
+
+RouteTrieNode:
+	time:O(1)(insert)
+	space:O(1)
+RouteTrie:
+	time:O(n)(both find and insert)
+	space:O(1)
+Router:
+	time:O(n)(both add_handler and lookup)
+	space:O(1)

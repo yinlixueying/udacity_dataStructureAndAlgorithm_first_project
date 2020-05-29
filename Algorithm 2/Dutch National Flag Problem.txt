@@ -1,0 +1,11 @@
+Dutch National Flag Problem
+
+For this problem, because it only has 3 values 0, 1, 2 and we need single traversal(requirement), so choose 1 as the median number, we need 3 position start, pointer, end. 
+if pointer value < 1, then swap the number in start and poiner, start++，pointer++
+if pointer value = 1, then pointer++
+if pointer value > 1, then swap end and pointer value, end--
+
+time complexity: O(n)
+space complecity: O(1)
+
+
