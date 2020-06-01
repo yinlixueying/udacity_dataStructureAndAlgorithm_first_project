@@ -1,8 +1,0 @@
-Trie
-
-Trie is similar to tree structure. Each node is a dictionary, it will record its children's node pointer. 
-When doing insertion, it will check whether its children already have the key, if it has, then pass this value, if it hasn't, then add to the dict.
-To find the suffix, start with the suffix characters, then add its children's item value to the suffix and recursively check the tree until to the end of the word.
-
-Time complexity: O(n)
-space complexity:O(n)

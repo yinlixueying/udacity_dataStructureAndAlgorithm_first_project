@@ -1,4 +1,0 @@
-Square root
-
-To achieve the Log(n) time complexity, I choose to use the binary search to solve this problem.
-Space complexity:O(1)

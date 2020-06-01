@@ -1,6 +1,0 @@
-Max and Min in a Unsorted Array
-
-This problem ask us to solve it in O(n) time, better in single traversal, so I choose the list[0] as the min and max value, when doing traverse, if the value is smaller than list[0], the update the min value, same as max value.
-
-time complexity: O(n)
-space complexity: O(1)

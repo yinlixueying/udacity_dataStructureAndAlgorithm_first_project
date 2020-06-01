@@ -1,6 +1,0 @@
-Rearrange Array Element
-
-To achieve the nLogn time complexity, we should use merge sort to sort the list
-
-time: O(nLogn)
-space: O(1)
